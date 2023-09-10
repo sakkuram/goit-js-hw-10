@@ -1,0 +1,44 @@
+/* Apply the Poppins font family to the entire page */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the breed title to be bold and larger */
+h2 {
+  font-weight: bold;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style the image to be responsive */
+img {
+  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+/* Make all text responsive */
+p,
+select,
+.loader,
+.error {
+  font-size: 16px; /* Adjust the font size as needed */
+  /* Add any other responsive styles as needed */
+}
+
+/* Style the text under the image */
+#cat-description {
+  font-size: 18px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Increase line spacing for readability */
+  margin-top: 10px; /* Add space between the image and text */
+  text-align: center; /* Center-align the text */
+  color: #333; /* Set the text color to a dark gray or as desired */
+}
+
+/* Add a background color and padding to the breed info container */
+#breed-info {
+  background-color: #f9f9f9; /* Set a light background color */
+  padding: 20px; /* Add padding around the content */
+  border-radius: 10px; /* Add rounded corners for a card-like appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}

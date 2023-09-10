@@ -26,3 +26,29 @@
   background-size: cover;
   background-position: center;
 }
+
+/* Apply the Poppins font family to the entire page */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style the breed title to be bold and larger */
+h2 {
+  font-weight: bold;
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style the image to be responsive */
+img {
+  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+/* Make all text responsive */
+p,
+select,
+.loader,
+.error {
+  font-size: 16px; /* Adjust the font size as needed */
+  /* Add any other responsive styles as needed */
+}
