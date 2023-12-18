@@ -10,7 +10,7 @@ const breedInfoDiv = document.getElementById('breed-info');
 const catImage = document.createElement('img');
 const catDescription = document.createElement('p');
 const loaderElement = document.querySelector('p.loader');
-const errorElement = document.querySelector('p.error');//12345678
+const errorElement = document.querySelector('p.error');
 
 // Hide loader and error initially
 loaderElement.style.display = 'none';
