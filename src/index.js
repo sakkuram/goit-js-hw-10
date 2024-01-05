@@ -5,7 +5,7 @@ axios.defaults.headers.common['x-api-key'] =
   'live_DTWX9A966i14AL48fZnBKngQ6axQmCn96fDrFErtpO8TTdkry9Eeq7TdGgwbCi5T';
 
 // Elements
-const selectElement = document.querySelector('.breed-select');123456789012
+const selectElement = document.querySelector('.breed-select');1234567890123
 const breedInfoDiv = document.getElementById('breed-info');
 const catImage = document.createElement('img');
 const catDescription = document.createElement('p');
