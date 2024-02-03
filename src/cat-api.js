@@ -1,6 +1,6 @@
 import axios from 'axios';
          
-axios.defaults.headers.common['x-api-key'] = 'your API key'; 
+axios.defaults.headers.common['x-api-key'] = 'your API key';  
  
 // Function to fetch cat breeds
 export function fetchBreeds() {
